@@ -5,32 +5,39 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <script src="https://use.fontawesome.com/1fb0eb3889.js"></script>
+  <link rel="stylesheet" href="./stylesheets/style.css">
   <title>Where work happens | Slack</title>
 </head>
 
 <body>
   <nav>
-    <img src="./images/slack-logo.png" alt="slack_logo">
+    <div class="nav-left">
+    <img src="./images/slack-logo.png" alt="slack_logo" class="slackLogo">
+  </div>
+    <div class="nav-right">
     <ul>
       <li>Why Slack?</li>
       <li>Pricing</li>
       <li>About Us</li>
       <li>Your Workspaces</li>
     </ul>
-  </nav>
-  <header>
-    <img src="./images/home_talking.png" alt="home_work_happening">
+  </div>
+   </nav> 
+  <header id="header"> 
     <h1>Where Work Happens</h1>
-    <p>When your team needs to kick off a project, hire a new employee, deploy some code, review a sales contract, finalize next year's budget, measure an A/B test, plan your next office opening, and more, Slack has you covered.</p>
+    <p class="breakingPara">When your team needs to kick off a project, <span> hire a new employee, deploy some code,</span> <span>review a sales contract, finalize next year's budget, </span> <span>measure an A/B test, plan your next office opening,</span>  and more, Slack has you covered.</p>
     <button type="button" name="button">GET STARTED</button>
     <p>Already using Slack? <a href="#">Sign in</a></p>
-  </header>
+    <img src="./images/home_talking.png" alt="home_work_happening" class="homeImage">
+ </header> 
   <main>
     <div>
-      <h2>You´re in good company</h2>
+      <div class="goodCompany">
+      <h2>You're in good company</h2>
       <p>Millions of people around the world have already made Slack the place where their work happens.</p>
       <button>DISCOVER WHY</button>
+    </div>
+      <div class="manyLogos">
       <img src="./images/airbnb-logo.png" alt="">
       <img src="./images/capital-one-logo.png" alt="">
       <img src="./images/harvard-logo.png" alt="">
@@ -38,11 +45,7 @@
       <img src="./images/oracle-logo.png" alt="">
       <img src="./images/ticketmaster-logo.png" alt="">
     </div>
-    <div>
-      <p>Try it for free</p>
-      <p>Already using Slack? <a href="">Sign in</a></p>
-      <button type="button" name="button">GET STARTED</button>
-    </div>
+   </div>
   </main>
   <footer>
     <div>
@@ -98,4 +101,4 @@
   </footer>
 </body>
 
-</html>
+</html> 
