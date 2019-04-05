@@ -91,34 +91,34 @@ main .manyLogos {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-evenly;
-  align-items: center
+  align-items: center;
 }
 main .manyLogos img{
   width: 10%;
   height: 40px;
 }
-main {
-  display: flex;
-}
+
 .goodCompany {
   font-size: 35px;
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
+  text-align: center;
 
 }
 .goodCompany h2 {
   font-size: 30px;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 
 .goodCompany p {
   font-size: 20px;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 .goodCompany button {
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
+  width: 30%
 }
