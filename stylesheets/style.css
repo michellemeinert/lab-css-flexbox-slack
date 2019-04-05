@@ -86,23 +86,39 @@ button + p {
 main {
   display: flex;
 }
-main h2 {
-  font-size: 35px;
-  justify-content: center;
-  align-content: center;
-}
 
+main .manyLogos {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  align-items: center
+}
 main .manyLogos img{
-  width: auto;
+  width: 10%;
   height: 40px;
-  flex-flow: column wrap;
-  justify-content: flex-start;
 }
 main {
   display: flex;
 }
-.goodCompany h2 p button{
-  align-items: center;
+.goodCompany {
+  font-size: 35px;
+  display: flex;
+  flex-flow: column nowrap;
   justify-content: center;
 
+}
+.goodCompany h2 {
+  font-size: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.goodCompany p {
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.goodCompany button {
+  justify-content: center;
+  align-items: center;
 }
